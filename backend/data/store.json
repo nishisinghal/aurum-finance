@@ -1,0 +1,177 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Aurum Admin",
+      "email": "admin@aurum.app",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Aurum Viewer",
+      "email": "viewer@aurum.app",
+      "password": "viewer123",
+      "role": "viewer"
+    },
+    {
+      "id": 3,
+      "name": "Test User",
+      "email": "testuser_2026@aurum.app",
+      "password": "test1234",
+      "role": "viewer"
+    },
+    {
+      "id": 4,
+      "name": "Nishi Singhal",
+      "email": "kittubansal@123gmail.com",
+      "password": "kittu123",
+      "role": "viewer"
+    },
+    {
+      "id": 5,
+      "name": "kittu bansal",
+      "email": "kittu123@gmail.com",
+      "password": "kittu123",
+      "role": "viewer"
+    },
+    {
+      "id": 6,
+      "name": "kittu",
+      "email": "kittu1234@gmail.com",
+      "password": "kittu1234",
+      "role": "admin"
+    },
+    {
+      "id": 7,
+      "name": "Nishi",
+      "email": "nishisinghal51@gmail.com",
+      "password": "Nishii",
+      "role": "admin"
+    }
+  ],
+  "transactions": {
+    "1": [
+      {
+        "id": 1,
+        "desc": "jabalpur trip",
+        "amount": 1500,
+        "date": "2026-04-07",
+        "type": "expense",
+        "cat": "travel"
+      },
+      {
+        "id": 2,
+        "desc": "pocket money",
+        "amount": 5000,
+        "date": "2026-04-07",
+        "type": "income",
+        "cat": "salary"
+      },
+      {
+        "id": 3,
+        "desc": "dinner",
+        "amount": 210,
+        "date": "2026-04-07",
+        "type": "expense",
+        "cat": "food"
+      }
+    ],
+    "2": [
+      {
+        "id": 1,
+        "date": "2024-01-10",
+        "desc": "Freelance Income",
+        "cat": "freelance",
+        "type": "income",
+        "amount": 25000
+      },
+      {
+        "id": 2,
+        "date": "2024-01-14",
+        "desc": "Groceries",
+        "cat": "food",
+        "type": "expense",
+        "amount": 3000
+      }
+    ],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [
+      {
+        "id": 2,
+        "desc": "salary",
+        "amount": 50000,
+        "date": "2026-05-01",
+        "type": "income",
+        "cat": "salary"
+      },
+      {
+        "id": 3,
+        "desc": "rent",
+        "amount": 15000,
+        "date": "2026-05-05",
+        "type": "expense",
+        "cat": "rent"
+      },
+      {
+        "id": 4,
+        "desc": "shopping",
+        "amount": 5000,
+        "date": "2026-04-19",
+        "type": "expense",
+        "cat": "shopping"
+      },
+      {
+        "id": 5,
+        "desc": "shopping wedding",
+        "amount": 7000,
+        "date": "2026-05-12",
+        "type": "expense",
+        "cat": "shopping"
+      },
+      {
+        "id": 6,
+        "desc": "salary",
+        "amount": 50000,
+        "date": "2026-04-01",
+        "type": "income",
+        "cat": "salary"
+      },
+      {
+        "id": 7,
+        "desc": "adventure",
+        "amount": 3000,
+        "date": "2026-04-07",
+        "type": "expense",
+        "cat": "entertainment"
+      },
+      {
+        "id": 8,
+        "desc": "shopify project",
+        "amount": 10000,
+        "date": "2026-05-15",
+        "type": "income",
+        "cat": "freelance"
+      },
+      {
+        "id": 9,
+        "desc": "dayout",
+        "amount": 3000,
+        "date": "2026-05-16",
+        "type": "expense",
+        "cat": "entertainment"
+      },
+      {
+        "id": 10,
+        "desc": "rent",
+        "amount": 15000,
+        "date": "2026-04-05",
+        "type": "expense",
+        "cat": "rent"
+      }
+    ]
+  }
+}
