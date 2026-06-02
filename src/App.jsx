@@ -876,7 +876,7 @@ export default function App() {
   useEffect(() => () => clearTimeout(toastTimer.current), []);
 
   const apiRequest = useCallback(async (path, options = {}, authToken = token) => {
-    const API_BASE = (import.meta.env.VITE_API_BASE_URL || "http://localhost:4000") + "/api";
+    const API_BASE = (import.meta.env.VITE_API_BASE_URL || "") + "/api";
     const headers = {
       "Content-Type": "application/json",
       ...(options.headers || {}),
@@ -887,7 +887,7 @@ export default function App() {
     try {
       res = await fetch(`${API_BASE}${path}`, { ...options, headers });
     } catch {
-      throw new Error("Cannot connect to server. Please start backend on port 4000.");
+      throw new Error("Cannot connect to API server.");
     }
     const data = await res.json().catch(() => ({}));
 

@@ -4,49 +4,49 @@
       "id": 1,
       "name": "Aurum Admin",
       "email": "admin@aurum.app",
-      "password": "admin123",
+      "password": "$2a$10$0KLIOymiIe8Hn/Iyyvx41uXpJ8HN6giSR8qtNSOtSFgLIErnpIPDq",
       "role": "admin"
     },
     {
       "id": 2,
       "name": "Aurum Viewer",
       "email": "viewer@aurum.app",
-      "password": "viewer123",
+      "password": "$2a$10$GvtxxOWIG9Ho80xXOk3kiOG1YX6JGNLYjA/JCFrMnh1XSTbqviZG6",
       "role": "viewer"
     },
     {
       "id": 3,
       "name": "Test User",
       "email": "testuser_2026@aurum.app",
-      "password": "test1234",
+      "password": "$2a$10$ZWmVGuLVWAAB5qSxt34ojeEh4Pj113uCOg8spL5YzyvpxhfmqRLUS",
       "role": "viewer"
     },
     {
       "id": 4,
       "name": "Nishi Singhal",
       "email": "kittubansal@123gmail.com",
-      "password": "kittu123",
+      "password": "$2a$10$.z1f5oHXIoRkBBXSLsiT5OEn1MB.bDF4dtYCDdrGHnxlMCK4s1kwG",
       "role": "viewer"
     },
     {
       "id": 5,
       "name": "kittu bansal",
       "email": "kittu123@gmail.com",
-      "password": "kittu123",
+      "password": "$2a$10$Ixozt/OnVljTXGU.J3gahO7SaTmNTDR3iw/4mY63Pcb0xR1A7HHJW",
       "role": "viewer"
     },
     {
       "id": 6,
       "name": "kittu",
       "email": "kittu1234@gmail.com",
-      "password": "kittu1234",
+      "password": "$2a$10$DQDp8ZsRa9vVQLtm00mGs.MGlSzojk3MOqPuUjoOX4fomieKZnqN6",
       "role": "admin"
     },
     {
       "id": 7,
       "name": "Nishi",
       "email": "nishisinghal51@gmail.com",
-      "password": "Nishii",
+      "password": "$2a$10$bVphkWPt.SFLkFFyMm0iAOX9CQ.jaBOnpQfAMdRnk/dGLZ/kJp51e",
       "role": "admin"
     }
   ],
