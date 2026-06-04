@@ -48,6 +48,13 @@
       "email": "nishisinghal51@gmail.com",
       "password": "$2a$10$bVphkWPt.SFLkFFyMm0iAOX9CQ.jaBOnpQfAMdRnk/dGLZ/kJp51e",
       "role": "admin"
+    },
+    {
+      "id": 8,
+      "name": "Nishi",
+      "email": "nishi@gmail.com",
+      "password": "$2a$10$r3uC2JuwWkj5b4rqliSJ1.b.fyMdu50TlqPxHYM1mb/NJSzLARXNi",
+      "role": "admin"
     }
   ],
   "transactions": {
@@ -172,6 +179,7 @@
         "type": "expense",
         "cat": "rent"
       }
-    ]
+    ],
+    "8": []
   }
 }
