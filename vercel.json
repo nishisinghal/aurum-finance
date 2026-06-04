@@ -1,4 +1,10 @@
 {
   "buildCommand": "npm run build --prefix my-app",
-  "outputDirectory": "my-app/dist"
+  "outputDirectory": "my-app/dist",
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api"
+    }
+  ]
 }
