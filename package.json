@@ -2,6 +2,7 @@
   "name": "finan",
   "private": true,
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix my-app\"",
     "dev:backend": "npm run dev --prefix backend",
